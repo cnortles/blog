@@ -1,0 +1,458 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>落星屋 - 分享所见</title><meta name="keywords" content="学习，经历，经验，Hexo，PHP，python，C"><meta name="author" content="stars,crl@cnortles.top"><meta name="copyright" content="stars"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="分享学习、探索中的经历。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="落星屋">
+<meta property="og:url" content="https://www.cnortles.top/index.html">
+<meta property="og:site_name" content="落星屋">
+<meta property="og:description" content="分享学习、探索中的经历。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://source.cnortles.top/avatar.png">
+<meta property="article:author" content="stars">
+<meta property="article:tag" content="学习，经历，经验，Hexo，PHP，python，C">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://source.cnortles.top/avatar.png"><link rel="shortcut icon" href="https://source.cnortles.top/favicon.ico"><link rel="canonical" href="https://www.cnortles.top/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="pkPtc0pLaeW5CGaLq_odZ-MQnwpvd7xO5m6WCcoiYW0"/><meta name="baidu-site-verification" content="code-G8RJdQfpmN"/><meta name="bytedance-verification-code" content="RALleLZCNUvmz8rMWsuG"/><meta name="sogou_site_verification" content="CCSrIkgALf"/><meta name="360-site-verification" content="148e4038953c0d0f38c2980fcb128b84"/><meta name="Petal-Search-site-verification" content="9191977d80"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cnortles.top/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cnortles.top/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cnortles.top/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?315c1c84dd7015432b6e44ae50134591";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":30,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":65},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":300,"languages":{"author":"作者: stars","link":"链接: ","source":"来源: 落星屋","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#1f1f1f","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cnortles.top/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.cnortles.top/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isAnchor: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '落星屋',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-07-25 00:40:17'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="dns-prefetch" href="https://cdn.cnortles.top" /><link rel="dns-prefetch" href="https://source.cnortles.top" /><link rel="dns-prefetch" href="https://at.alicdn.com/" /><link rel="dns-prefetch" href="https://i.loli.net/" /><script type="text/javascript" src="https://api.cnortles.top/ip/"></script><link rel="stylesheet" href="/custom/css/index.css"><link rel="stylesheet" href="/custom/css/twikoo.css"><script src="/custom/js/pandown.js" /></script><script src="https://source.cnortles.top/js/leave.min.js" /></script><script src="https://at.alicdn.com/t/font_3106618_knsy0ah50fs.js" /></script><script src="https://at.alicdn.com/t/font_3340351_5fqp82u1yzq.js" /></script><link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_3106618_knsy0ah50fs.css"><link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_3340351_5fqp82u1yzq.css"><link rel="stylesheet" type="text/css" href="https://cdn.cnortles.top/gh/zhheo/JS-Heo/mainColor/heoMainColor.css"><script src="https://cdn.cnortles.top/npm/jquery/dist/jquery.min.js"></script><link rel="stylesheet" type="text/css" href="https://cdn.cnortles.top/npm/js-heo/categoryBar/categoryBar.css"><script async src="https://cdn.cnortles.top/npm/js-heo/categoryBar/categoryBar.js"></script><script async data-pjax src="https://cdn.cnortles.top/gh/zhheo/JS-Heo/rightmenu/rightmenu.js"></script><script src="https://cdn.bootcss.com/pace/1.0.2/pace.min.js"></script><script charset="UTF-8" id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js"></script><script async defer data-website-id="ef16dbe6-15cf-4e50-b89f-3d7b782771d9" src="https://analyse.cnortles.top/umami.js"></script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-card-history/baiduhistory/css/main.css"><link rel="stylesheet" href="https://unpkg.zhimg.com/hexo-butterfly-wowjs/lib/animate.min.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.2.0">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="落星屋" type="application/atom+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://source.cnortles.top/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">16</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-dingwei"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/random"><i class="fa-fw iconfont icon-faxian"></i><span> 随便逛逛</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-jiankong1"></i><span> 导航</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/charts"><i class="fa-fw iconfont icon-baogao"></i><span> 统计</span></a></li><li><a class="site-page child" href="/categories"><i class="fa-fw iconfont icon-bangong"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags"><i class="fa-fw iconfont icon-gonglve"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives"><i class="fa-fw iconfont icon-jihua"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/privacy"><i class="fa-fw iconfont icon-yinsi"></i><span> 隐私政策</span></a></li><li><a class="site-page child" href="/about"><i class="fa-fw iconfont icon-document-01"></i><span> 关于</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-faxian"></i><span> 社交</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link"><i class="fa-fw iconfont icon-webpage-01"></i><span> 友链</span></a></li><li><a class="site-page child" href="/comments"><i class="fa-fw iconfont icon-xiaoxi"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-yinliao"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/bangumis"><i class="fa-fw iconfont icon-yingyin"></i><span> 追番</span></a></li><li><a class="site-page child" href="/playlist"><i class="fa-fw iconfont icon-gonglve"></i><span> 歌单</span></a></li><li><a class="site-page child" href="/jx"><i class="fa-fw iconfont icon-jihua"></i><span> 解析</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('https://api.cnortles.top/img?type=wallpaper')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">落星屋</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw iconfont icon-dingwei"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/random"><i class="fa-fw iconfont icon-faxian"></i><span> 随便逛逛</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-jiankong1"></i><span> 导航</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/charts"><i class="fa-fw iconfont icon-baogao"></i><span> 统计</span></a></li><li><a class="site-page child" href="/categories"><i class="fa-fw iconfont icon-bangong"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags"><i class="fa-fw iconfont icon-gonglve"></i><span> 标签</span></a></li><li><a class="site-page child" href="/archives"><i class="fa-fw iconfont icon-jihua"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/privacy"><i class="fa-fw iconfont icon-yinsi"></i><span> 隐私政策</span></a></li><li><a class="site-page child" href="/about"><i class="fa-fw iconfont icon-document-01"></i><span> 关于</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-faxian"></i><span> 社交</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link"><i class="fa-fw iconfont icon-webpage-01"></i><span> 友链</span></a></li><li><a class="site-page child" href="/comments"><i class="fa-fw iconfont icon-xiaoxi"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fa-fw iconfont icon-yinliao"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/bangumis"><i class="fa-fw iconfont icon-yingyin"></i><span> 追番</span></a></li><li><a class="site-page child" href="/playlist"><i class="fa-fw iconfont icon-gonglve"></i><span> 歌单</span></a></li><li><a class="site-page child" href="/jx"><i class="fa-fw iconfont icon-jihua"></i><span> 解析</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">落星屋</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/cnortles" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="iconfont icon-github3"></i></a><a class="social-icon" href="https://gitee.com/ypmsk" rel="external nofollow noreferrer" target="_blank" title="Gitee"><i class="iconfont icon-gitee"></i></a><a class="social-icon" href="mailto:crl@cnortles.top" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://space.bilibili.com/555149182" rel="external nofollow noreferrer" target="_blank" title="B站"><i class="iconfont icon-bilibili-"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div id="category-bar"><div class="category-bar-items" id="category-bar-items"><div class="category-bar-item" id="首页"><a href="/">首页</a></div><div class="category-bar-item" id="笔记"><a href="/categories/笔记/">笔记分享</a></div><div class="category-bar-item" id="编程"><a href="/categories/编程学习/">编程学习</a></div><div class="category-bar-item" id="资源"><a href="/categories/资源/">资源中心</a></div><div class="category-bar-item" id="文案"><a href="/categories/文案/">文案分享</a></div><div class="category-bar-item" id="我的源码"><a href="/categories/源码/">我的源码</a></div><div class="category-bar-item" id="转载内容"><a href="/categories/转载/">转载内容</a></div></div><a class="category-bar-more" href="/categories/">更多</a></div><div class="recent-post-item"><div class="post_cover left"><a href="/posts/a889f9e9.html" title="利用CSS rem元素实现网站自适应"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/20/cQYtLRpsf87ZOiB.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="利用CSS rem元素实现网站自适应"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/a889f9e9.html" title="利用CSS rem元素实现网站自适应">利用CSS rem元素实现网站自适应</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-23T02:37:12.000Z" title="发表于 2022-07-23 10:37:12">2022-07-23</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-24T16:39:39.949Z" title="更新于 2022-07-25 00:39:39">2022-07-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%BD%AC%E8%BD%BD/">转载</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/css/">css</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/html/">html</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/posts/a889f9e9.html#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">前言
+什么是 rem
+
+这个单位可谓集相对大小和绝对大小的优点于一身，通过它既可以做到只修改根元素就成比例地调整所有字体大小，又可以避免字体大小逐层复合的连锁反应。除了 IE8 及更早版本外，所有浏览器均已支持 rem。
+——来自百度
+
+用途
+利用 rem，我们就可以实现 js 自适应效果，可以很好的提升网页的多端效果，实现响应式布局
+额外
+
+定义 rem 基准值（rem 与 px 之间的换算关系）
+rem 的计算公式 ：设备视口宽度 / 设计稿宽度 * 100
+
+使用方法
+加入以下 js 代码
+123456789101112131415161718192021(function (doc, win) {  var docEl = doc.documentElement,    resizeEvt = "orientationchange" in window ? "orientationchange" : "resize",    recalc = function () {      var clientWidth = docEl.clientWidth;      if (!cl ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/e43f3b7d.html" title="视频解析"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/21/OjDFZJUHX8stBNx.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="视频解析"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/e43f3b7d.html" title="视频解析">视频解析</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-20T23:51:06.000Z" title="发表于 2022-07-21 07:51:06">2022-07-21</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-24T16:39:39.949Z" title="更新于 2022-07-25 00:39:39">2022-07-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%BA%90%E7%A0%81/">源码</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%A7%86%E9%A2%91%E8%A7%A3%E6%9E%90/">视频解析</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/posts/e43f3b7d.html#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">声明
+一切资源来自于网络，本站不保存任何资源！！！
+前言
+之前搞了一个公益的 CDN 结果被一些视频网站刷了 500G 的流量，今天突然想起来自己有一个视频解析的模板，刚好可以用那几个网站试用
+网址
+
+https://jx.zui.cm/
+https://jx.playerjy.com/
+https://jx.yunjuw.cn/
+https://jx1.aiyingshis.com/
+
+解析模板
+12345678910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989910010110210310410510610710810911011111211311411511611711811912012112212312412512612712812913013113213313413513 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/posts/f5ea3af7.html" title="钉钉在线课堂使用"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/20/6ZW3ntr9jfyLzwp.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="钉钉在线课堂使用"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/f5ea3af7.html" title="钉钉在线课堂使用">钉钉在线课堂使用</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-20T23:03:52.000Z" title="发表于 2022-07-21 07:03:52">2022-07-21</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-24T16:39:39.949Z" title="更新于 2022-07-25 00:39:39">2022-07-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/posts/f5ea3af7.html#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">疫情当下，在家网课是保证学习不中断其中的一个方式，今天来讲一下如何使用 钉钉在线课堂
+如何添加上课人员？
+钉钉的群直播课堂只有 302 人容量，除去发起者最多只能容纳301人
+群聊``好友视频接听``
+如何开启群员静音？
+
+具体步骤请看上步视频
+如何使用答题卡、点名、连麦等功能增强课堂互动性？
+
+如何共享 ppt?
+
+PPT 与黑板间的切换
+
+推荐配置
+共享音频``流畅优先
+
+如果家里网不好建议在共享时打开流畅优先
+如果 PPT 中有视频或者音乐，请在点击共享音频
+如果家里网不好，建议学生进课堂时，不要打开摄像头
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/42dc9a81.html" title="自定义网站字体"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/21/fQRK7L5xrjiPpNE.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="自定义网站字体"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/42dc9a81.html" title="自定义网站字体">自定义网站字体</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-20T22:57:55.000Z" title="发表于 2022-07-21 06:57:55">2022-07-21</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-24T16:39:39.949Z" title="更新于 2022-07-25 00:39:39">2022-07-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/css/">css</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E5%AD%97%E4%BD%93/">字体</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/posts/42dc9a81.html#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">前言
+说到网站字体，chrome 支持性是最好的，IE 是最差的，为了防止 IE 对我们字体的残害，让我们一起抵制 IE 吧话归正传，自定义全局字体是很简单的，只需要几行 CSS 就成
+各大浏览器支持字体格式
+
+
+
+浏览器
+eot
+woff/woff2
+ttf
+svg
+
+
+
+
+IE
+√
+√
+√（9+）
+
+
+
+chrome
+
+√
+√
+√
+
+
+firefox
+
+√
+√
+
+
+
+Safari
+
+√
+√
+√
+
+
+
+引入字体
+引入字体的 CSS 代码就用阿里的举例吧
+12345678910@font-face {  font-family: 'webfont';/*这里为自定义引入字体的名称（后面会使用）*/  font-display: swap;  src: url('//at.alicdn.com/t/webfont_3nif3r3wsh1.eot'); /* IE9*/  src: url('//at.alicdn.com/t/webfont_3nif3r3wsh1.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */  url(' ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/posts/2fd44f51.html" title="网盘本地化（支持docker）"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/21/yH6Dr3SaPXEt9qA.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="网盘本地化（支持docker）"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/2fd44f51.html" title="网盘本地化（支持docker）">网盘本地化（支持docker）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-20T22:45:33.000Z" title="发表于 2022-07-21 06:45:33">2022-07-21</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-24T16:39:39.949Z" title="更新于 2022-07-25 00:39:39">2022-07-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%B5%84%E6%BA%90/">资源</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E8%B5%84%E6%BA%90/">资源</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/posts/2fd44f51.html#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">前言
+自从工信部下令整改网盘后，现在的网盘界良心多了，有了很多可以蹭羊毛的机会，今天这篇文章介绍的是如何将网盘挂载为本地硬盘使用。
+软件信息
+
+功能：查看文件夹大小、使用第三方播放器播放视频、文件重命名、全局下载带宽控制、全盘搜索功能本地上传、本地下载、115 秒传迁移到阿里云盘、网络盘、本地盘互换、文件夹灵活挂载等 &gt; 软件介绍
+
+安装
+Windows
+下载软件，安装即可（此软件由 nodejs 编写而成）
+注意事项
+
+上传默认缓存文件到 C 盘，网页可以查看上传任务，上传完自动删除缓存（网页可以设置缓存位置）
+最好不要直接从网上下载资源到本地挂载的磁盘里（包括百度设置下载目录到挂载磁盘）
+不适合用来打游戏或者在线编辑文档（为了防止文件丢失记得做好备份）
+旧版本可以正常使用就不建议更新新版本了（尝鲜的可以忽视）
+挂载的盘可以选择挂载为本地或者网络盘，自己觉得哪种好用就选哪种(网页设置挂载盘符类型)
+盘符为零字节、网页空白（登陆失效，需要扫码重新登陆）
+经常重新登陆可以试试 refresh_token 登录(阿里云盘链接里面有登陆教程)
+文件访问卡可以考虑查看方式设置为详细信息查 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/9ec5b301.html" title="生物神经系统"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/21/y3ohsCmJUEAR2WI.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="生物神经系统"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/9ec5b301.html" title="生物神经系统">生物神经系统</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-18T22:23:28.000Z" title="发表于 2022-07-19 06:23:28">2022-07-19</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-24T16:39:39.949Z" title="更新于 2022-07-25 00:39:39">2022-07-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%AC%94%E8%AE%B0/">笔记</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E9%AB%98%E4%B8%AD/">高中</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E7%94%9F%E7%89%A9/">生物</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/posts/9ec5b301.html#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">神经元
+地位
+是神经系统的基本单位和重要组成
+组成
+胞体
+含有细胞核
+突体
+树突
+有胞体延伸形成，不端向外延伸，呈树突状多为感觉神经，接受信号，传递给胞体，一个神经元细胞有 1 ～多个
+轴突
+为细胞膜的延伸（细胞膜旅游流动性），多为传递信号，可以延长，在人体中最长可达 1m
+一个神经元细胞一般只有一个
+神经纤维
+轴突和髓鞘在一起构成神经纤维
+细胞末梢
+在轴突不端的延伸中，最后结束的部分
+分类
+联络神经元细胞
+多在脑干和脊髓，起到中间联络作用
+传入神经元细胞（感觉神经元细胞）
+树突多，传导神经信号
+输出神经元细胞（运动神经元细胞）
+轴突长，树突发达，多位于肌肉和腺体之中
+胶质细胞
+小胶质细胞
+星形胶质细胞
+链接神经元细胞和毛细血管，为神经元细胞供给养分和能源
+寡树突胶质细胞
+神经系统
+中枢神经系统『CNS』
+组成
+
+大脑：分为左右两个半脑，拥有大脑皮层『最高级神经中枢』
+脊髓：含有神经系统，调节低级神经中枢
+丘脑：综合，筛选信息，传递给大脑皮层
+下丘脑：调节人体温度，水平衡，血糖平衡，控制生物节律
+小脑：起到校对作用，控制平衡，协调运动，喝酒会对其麻痹
+脑干：连接脊髓和脑部分的中要通路， ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/posts/9aff0b88.html" title="制作一个IP查询小接口"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/21/7brtIHduqPQ5ieD.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="制作一个IP查询小接口"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/9aff0b88.html" title="制作一个IP查询小接口">制作一个IP查询小接口</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-07-10T10:04:16.000Z" title="发表于 2022-07-10 18:04:16">2022-07-10</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-24T16:39:39.949Z" title="更新于 2022-07-25 00:39:39">2022-07-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%BA%90%E7%A0%81/">源码</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/PHP/">PHP</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/API/">API</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/IP/">IP</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/posts/9aff0b88.html#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">前言
+喜欢上网冲浪的同学们应该发现了，最近越来越多的平台开始支持 IP 地址显示了，咱也要紧跟时代的步伐，于是有了今天的文章，为网站加入 IP 显示
+自建 IP 地址查询接口
+10000次依据腾讯地图服务自建接口
+准备
+
+前往腾讯地图官网注册账号（推荐使用微信登录）
+完成基础认证成为个人开发者（个人开发者拥有一天 10000 次调用）
+可选择是否认证企业（免费额度更大，可购买套餐包）
+
+创建一个应用
+
+前往开发控制台创建一个应用信息自己填
+在应用中添加一个 KEY（注意：这个 KEY 关乎接口调用，请保存好，避免额度被盗用，类型选择webService）
+创建好后可前往文档查看（官方接口为：https://apis.map.qq.com/ws/location/v1/ip）
+
+创建 api
+php 案例
+123456789101112131415161718192021&lt;?php    $ip_user=$_GET['ip'];    if (empty($ip_user))        {$ip_user = $_SERVER["REMOTE_ADDR"];}    $ip_ ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/62ba053c.html" title="物质的第四态（科普）"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/21/MZhDfETBXkaqu1l.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="物质的第四态（科普）"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/62ba053c.html" title="物质的第四态（科普）">物质的第四态（科普）</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-02-12T08:50:54.000Z" title="发表于 2022-02-12 16:50:54">2022-02-12</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-24T16:39:39.949Z" title="更新于 2022-07-25 00:39:39">2022-07-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%96%87%E6%A1%88/">文案</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%AD%A6%E4%B9%A0/">学习</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E6%96%87%E7%AB%A0/">文章</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E7%89%A9%E7%90%86/">物理</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/posts/62ba053c.html#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">
+摘要：在初中物理，我们学习了物质有三态——气态、液态、固态，但在生活中、除了有这三种物态，还有一种物态叫做等离子态，我们生活中‘高温火焰’就处于等离子态，也就是等离子体
+
+等离子态的定义：
+在物理中将物质分为了六态（气态、液态、固态、等离子态、超固态、中子态），在初中的物理中我们学习了其中的三态，也是我们生活中最常见的三态——气态、液态、固态。等离子态说起来你可能感觉这并不常见，实则不然，在生活中等离子态可是很常见的，在探究生活中什么物质是等离子态之前，我们先看看它的定义：
+物质原子内的电子在脱离原子核的吸引而形成带负电的自由电子和带正电的离子共存的状态，此时，电子和离子带的电荷相反，但数量相等，这种状态称作等离子态，同时我们将处于等离子态的物质称作等离子体。（等离子体由克鲁克斯在 1879 年发现）等离子态常被称为超气态，它和气体有很多相似之处，没有确定形状和体积，具有流动性，但等离子也有很多独特的性质。普通气体由电中性的分子或原子组成，而等离子体则是带电粒子和中性粒子的集合体。等离子体是一种导电流体，但是又能在与气体体积相比拟的宏观尺度内维持电中性；等离子体中的带电粒子之间存在库 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/posts/37f2dd15.html" title="phton基础版教程"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/21/ywEhOX1kGKVBitU.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="phton基础版教程"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/37f2dd15.html" title="phton基础版教程">phton基础版教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-02-04T02:59:42.000Z" title="发表于 2022-02-04 10:59:42">2022-02-04</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-24T16:39:39.949Z" title="更新于 2022-07-25 00:39:39">2022-07-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0/">编程学习</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%AD%A6%E4%B9%A0/">学习</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/%E7%BC%96%E7%A8%8B/">编程</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/posts/37f2dd15.html#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">什么是 python
+
+Python 由荷兰数学和计算机科学研究学会的吉多·范罗苏姆 于 1990 年代初设计，作为一门叫做ABC 语言的替代品。 Python 提供了高效的高级数据结构，还能简单有效地面向对象编程。Python 语法和动态类型，以及解释型语言的本质，使它成为多数平台上写脚本和快速开发应用的编程语言， 随着版本的不断更新和语言新功能的添加，逐渐被用于独立的、大型项目的开发。
+Python解释器易于扩展，可以使用C 语言或C++（或者其他可以通过 C 调用的语言）扩展新的功能和数据类型。 [4] Python 也可用于可定制化软件中的扩展程序语言。Python 丰富的标准库，提供了适用于各个主要系统平台的源码或机器码。
+2021 年 10 月，语言流行指数的编译器 Tiobe 将 Python 加冕为最受欢迎的编程语言，20 年来首次将其置于 Java、C 和 JavaScript 之上。
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/posts/762d4b0f.html" title="利用PHP+图床搭建随机API"><img class="post_bg" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/21/ZUoiAgRMwP7Tmqk.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="利用PHP+图床搭建随机API"></a></div><div class="recent-post-info"><a class="article-title" href="/posts/762d4b0f.html" title="利用PHP+图床搭建随机API">利用PHP+图床搭建随机API</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-01-30T20:17:27.000Z" title="发表于 2022-01-31 04:17:27">2022-01-31</time><span class="article-meta-separator">|</span><i class="fas fa-history"></i><span class="article-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-07-24T16:39:39.949Z" title="更新于 2022-07-25 00:39:39">2022-07-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%BA%90%E7%A0%81/">源码</a></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/PHP/">PHP</a><span class="article-meta-link">•</span><a class="article-meta__tags" href="/tags/API/">API</a></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-comments"></i><a class="twikoo-count" href="/posts/762d4b0f.html#post-comment"><i class="fa-solid fa-spinner fa-spin"></i></a><span class="article-meta-label"> 条评论</span></span></div><div class="content">前言
+网上有很多随机图片的教程，本文主要使用 PHP 读取 txt 文件中记录的图片链接达到随机图片的效果
+开始
+
+准备 PHP 环境（推荐 PHP 版本 ≥7.4）
+新建项目目录
+获取图片链接，并保存在*.txt 文件中（一行一个链接）
+
+如果只需要代码，可通过右侧的目录跳转至完整代码 获取
+2-4 日更新：修改判断机制
+
+步骤讲解
+主体函数
+12345678//打开一个名为*.txt的文件，此处使用$filename代替$str = explode("\n", file_get_contents($filename));		// 2.得到的一个String的数组，然后获取随机索引$rand_index = rand(0,count($str)-1);		// 根据生成的随机数选取index为$rand_index的图片链接$url = $str[$rand_index];		// 3.重定向到目标url,返回302码,然后浏览器就会跳转到图片url的地址die(header("Location:".$url));
+实现判断设备类型功能
+12345678910111213141516 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://source.cnortles.top/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">stars</div><div class="author-info__description">分享学习、探索中的经历。</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">16</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">19</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/cnortles"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/cnortles" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="iconfont icon-github3"></i></a><a class="social-icon" href="https://gitee.com/ypmsk" rel="external nofollow noreferrer" target="_blank" title="Gitee"><i class="iconfont icon-gitee"></i></a><a class="social-icon" href="mailto:crl@cnortles.top" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://space.bilibili.com/555149182" rel="external nofollow noreferrer" target="_blank" title="B站"><i class="iconfont icon-bilibili-"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎你，旅行者</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/a889f9e9.html" title="利用CSS rem元素实现网站自适应"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/20/cQYtLRpsf87ZOiB.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="利用CSS rem元素实现网站自适应"/></a><div class="content"><a class="title" href="/posts/a889f9e9.html" title="利用CSS rem元素实现网站自适应">利用CSS rem元素实现网站自适应</a><time datetime="2022-07-23T02:37:12.000Z" title="发表于 2022-07-23 10:37:12">2022-07-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/e43f3b7d.html" title="视频解析"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/21/OjDFZJUHX8stBNx.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="视频解析"/></a><div class="content"><a class="title" href="/posts/e43f3b7d.html" title="视频解析">视频解析</a><time datetime="2022-07-20T23:51:06.000Z" title="发表于 2022-07-21 07:51:06">2022-07-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/f5ea3af7.html" title="钉钉在线课堂使用"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/20/6ZW3ntr9jfyLzwp.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="钉钉在线课堂使用"/></a><div class="content"><a class="title" href="/posts/f5ea3af7.html" title="钉钉在线课堂使用">钉钉在线课堂使用</a><time datetime="2022-07-20T23:03:52.000Z" title="发表于 2022-07-21 07:03:52">2022-07-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/42dc9a81.html" title="自定义网站字体"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/21/fQRK7L5xrjiPpNE.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="自定义网站字体"/></a><div class="content"><a class="title" href="/posts/42dc9a81.html" title="自定义网站字体">自定义网站字体</a><time datetime="2022-07-20T22:57:55.000Z" title="发表于 2022-07-21 06:57:55">2022-07-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/2fd44f51.html" title="网盘本地化（支持docker）"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s2.loli.net/2022/07/21/yH6Dr3SaPXEt9qA.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="网盘本地化（支持docker）"/></a><div class="content"><a class="title" href="/posts/2fd44f51.html" title="网盘本地化（支持docker）">网盘本地化（支持docker）</a><time datetime="2022-07-20T22:45:33.000Z" title="发表于 2022-07-21 06:45:33">2022-07-21</time></div></div></div></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">16</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2022-07-05T00:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">13.3k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-07-24T16:40:17.302Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://api.cnortles.top/img?type=wallpaper')"><div id="footer-wrap"><div class="copyright">&copy;2022 By stars</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><p><svg class="iconfont" aria-hidden="true"><use xlink:href="#icon-beian"></use></svg><a target="_blank"  href="https://beian.miit.gov.cn/" rel="external nofollow noreferrer">豫ICP备2022002852号-1</a><svg class="iconfont" aria-hidden="true">|<use xlink:href="#icon-icon-beian"></use></svg><a href="https://icp.gov.moe/?keyword=20222852" rel="external nofollow noreferrer" target="_blank">萌ICP备20222852号</a></P><p><svg class="iconfont" aria-hidden="true"><use xlink:href="#icon-youqinglianjie"></use></svg><a href="https://www.cnortles.top/link">友链申请</a><svg class="iconfont" aria-hidden="true"><use xlink:href="#icon-yinsi"></use></svg><a href="https://www.cnortles.top/privacy/">隐私声明</a><svg class="iconfont" aria-hidden="true"><use xlink:href="#icon-ditu"></use></svg><a href="https://www.cnortles.top/sitemap.xml">网站地图</a></p><p><script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/JkcBsOFTTB5LJIqW/quote.js?theme=2&f=12&display=0,1,1,1,0,0,0,1"></script></p></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="fa-solid fa-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="fa-solid fa-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="fa-solid fa-arrow-rotate-right"></i></div><div class="rightMenu-item" id="menu-home"><i class="fa-solid fa-house"></i></div></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" id="menu-radompage" href="/random"><i class="fa-solid fa-shoe-prints"></i><span>随便逛逛</span></a><div class="rightMenu-item" id="menu-darkmode"><i class="fa-solid fa-moon"></i><span>切换模式</span></div><div class="rightMenu-item" id="menu-translate"><i class="fa-solid fa-earth-asia"></i><span>繁简切换</span></div><div class="rightMenu-item" id="menu-radompage" href="/charts"><i class="fa-solid fa-area-chart"></i><span>统计</span></div><div class="rightMenu-item" id="menu-radompage" href="/link"><i class="fa-solid fa-check-square-o"></i><span>申请友联</span></div></div></div><div id="rightmenu-mask" onclick="RemoveRightMenu()"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cnortles.top/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.cnortles.top/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.cnortles.top/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.cnortles.top/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>(() => { 
+  const getCommentUrl = () => {
+    const eleGroup = document.querySelectorAll('#recent-posts .article-title')
+    let urlArray = []
+    eleGroup.forEach(i=>{
+      urlArray.push(i.getAttribute('href'))
+    })
+    return urlArray
+  }
+
+  const getCount = () => {
+    const runTwikoo = () => {
+      twikoo.getCommentsCount({
+        envId: 'https://twikoo-cnortles.vercel.app/',
+        region: '',
+        urls: getCommentUrl(),
+        includeReply: false
+      }).then(function (res) {
+        document.querySelectorAll('#recent-posts .twikoo-count').forEach((item,index) => {
+          item.innerText = res[index].count
+        })
+      }).catch(function (err) {
+        console.log(err)
+      })
+    }
+
+      if (typeof twikoo === 'object') {
+        runTwikoo()
+      } else {
+        getScript('https://cdn.cnortles.top/npm/twikoo/dist/twikoo.all.min.js').then(runTwikoo)
+      }
+  }
+
+  window.pjax ? getCount() : window.addEventListener('load', getCount)
+
+})()</script><script>function subtitleType () {
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      if (true) {
+        const from = '出自 ' + data.from
+        const sub = ["世界充满了未知&#44;加油旅行者"]
+        sub.unshift(data.hitokoto, from)
+        window.typed = new Typed('#subtitle', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: true,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('subtitle').innerHTML = data.hitokoto
+      }
+    })
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.cnortles.top/npm/typed.js/lib/typed.min.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}
+</script></div><script src="/custom/js/index.js"></script><div class="aplayer no-destroy" data-id="60198" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div><script src="https://cdn.cnortles.top/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script id="click-show-text" src="https://cdn.cnortles.top/npm/butterfly-extsrc/dist/click-show-text.min.js" data-mobile="true" data-text="富强,民主,文明,和谐,自由,平等,公正,法制,爱国,敬业,诚信,友善" data-fontsize="15px" data-random="true" async="async"></script><link rel="stylesheet" href="https://cdn.cnortles.top/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cnortles.top/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.cnortles.top/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><!-- hexo injector body_end start --><script data-pjax>function history_calendar_injector_config(){
+                var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+                var item_html = '<div class="card-widget card-history"><div class="card-content"><div class="item-headline"><i class="fas fa-clock fa-spin"></i><span>那年今日</span></div><div id="history-baidu" style="height: 100px;overflow: hidden"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%"><div class="swiper-wrapper" id="history_container_wrapper" style="height:20px"></div></div></div></div> ';
+                console.log('已挂载history_calendar')
+                // parent_div_git.innerHTML=item_html+parent_div_git.innerHTML // 无报错，但不影响使用(支持pjax跳转)
+                parent_div_git.insertAdjacentHTML("afterbegin",item_html) // 有报错，但不影响使用(支持pjax跳转)
+            }if( document.getElementsByClassName('sticky_layout')[0] && (location.pathname ==='all'|| 'all' ==='all')){
+
+            history_calendar_injector_config()
+        } </script><script data-pjax  src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script><script data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-card-history/baiduhistory/js/main.js"></script><div class="js-pjax"><script async="async">var arr = document.getElementsByClassName('recent-post-item');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '2s');
+    arr[i].setAttribute('data-wow-delay', '1s');
+    arr[i].setAttribute('data-wow-offset', '100');
+    arr[i].setAttribute('data-wow-iteration', '1');
+  }</script><script async="async">var arr = document.getElementsByClassName('card-widget');
+for(var i = 0;i<arr.length;i++){
+    arr[i].classList.add('wow');
+    arr[i].classList.add('animate__zoomIn');
+    arr[i].setAttribute('data-wow-duration', '');
+    arr[i].setAttribute('data-wow-delay', '');
+    arr[i].setAttribute('data-wow-offset', '');
+    arr[i].setAttribute('data-wow-iteration', '');
+  }</script></div><script defer src="https://unpkg.zhimg.com/hexo-butterfly-wowjs/lib/wow.min.js"></script><script defer src="https://unpkg.zhimg.com/hexo-butterfly-wowjs/lib/wow_init.js"></script><!-- hexo injector body_end end --></body></html>

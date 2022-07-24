@@ -1,0 +1,440 @@
+/*这是自定义CSS*/
+a {
+    background-color: transparent
+}
+/* 横向排布子菜单 */
+#nav .menus_items .menus_item .menus_item_child li {
+  display: inline-block;
+}
+/*进度条*/
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  -o-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  max-width: 200px;
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  height: 100%;
+  width: 100%;
+  background: var(--heo-logo-color);
+  animation: gradient 2s ease infinite;
+  background-size: 200%;
+}
+
+.pace .pace-progress-inner {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #e90f92, 0 0 5px #e90f92;
+  opacity: 1.0;
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+  -moz-transform: rotate(3deg) translate(0px, -4px);
+  -ms-transform: rotate(3deg) translate(0px, -4px);
+  -o-transform: rotate(3deg) translate(0px, -4px);
+  transform: rotate(3deg) translate(0px, -4px);
+}
+
+.pace .pace-activity {
+  display: block;
+  position: fixed;
+  z-index: 2000;
+  top: 15px;
+  right: 15px;
+  width: 14px;
+  height: 14px;
+  border: solid 2px transparent;
+  border-top-color: #e90f92;
+  border-left-color: #e90f92;
+  border-radius: 10px;
+  -webkit-animation: pace-spinner 400ms linear infinite;
+  -moz-animation: pace-spinner 400ms linear infinite;
+  -ms-animation: pace-spinner 400ms linear infinite;
+  -o-animation: pace-spinner 400ms linear infinite;
+  animation: pace-spinner 400ms linear infinite;
+}
+
+@-webkit-keyframes pace-spinner {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-moz-keyframes pace-spinner {
+  0% { -moz-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-o-keyframes pace-spinner {
+  0% { -o-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-ms-keyframes pace-spinner {
+  0% { -ms-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@keyframes pace-spinner {
+  0% { transform: rotate(0deg); transform: rotate(0deg); }
+  100% { transform: rotate(360deg); transform: rotate(360deg); }
+}
+/* 在下面修改进度条外观 */
+.pace.pace-inactive {
+  opacity: 0;
+  transition: .3s;
+  top: -8px;
+}
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  z-index: 2000;
+  position: fixed;
+  margin: auto;
+  top: 4px;
+  left: 0;
+  right: 0;
+  height: 8px;
+  border-radius: 8px;
+  width: 4rem;
+  background: var(--heo-secondbg);
+  border: var(--style-border);
+  overflow: hidden;
+}
+/* 页脚透明 */
+#footer{
+	background: transparent!important;
+  }
+  /* 页脚黑色透明玻璃效果移除 */
+  #footer::before{
+	  background: transparent!important;
+	}
+  /* 头图透明 */
+  #page-header{
+	background: transparent!important;
+  }
+  /*夜间模式伪类遮罩层透明*/
+  [data-theme="dark"]
+	#footer::before{
+		background: transparent!important;
+	  }
+  [data-theme="dark"]
+	#page-header::before{
+	  background: transparent!important;
+	  }
+/*一图流*/
+/*10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果*/
+#page-header,
+#web_bg {
+    -webkit-animation: imgblur 1s 1 ease-in-out;
+    animation: imgblur 1s 1 ease-in-out;
+}
+
+@keyframes imgblur {
+  0% {
+    filter: blur(5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+/*适配使用-webkit内核的浏览器 */
+@-webkit-keyframes imgblur {
+  0% {
+    -webkit-filter: blur(5px);
+  }
+  100% {
+    -webkit-filter: blur(0px);
+  }
+}
+/*icon*/
+.iconfont {
+      width: 1em;
+      height: 1em;
+      vertical-align: -0.15em;
+      fill: currentColor;
+      overflow: hidden;
+    }
+
+/** 普通指针样式**/
+body{cursor: url(), default;}
+/** 链接指针样式**/
+a:hover{cursor:url(), pointer;}
+/** 鼠标样式-end**/
+
+/* rightMenu右键菜单 */
+#rightMenu{
+	display: none;
+	position: fixed;
+  padding: 0 0.25rem;
+	width: 9rem;
+	height: fit-content;
+	top: 10%;
+	left: 10%;
+	background-color: var(--heo-card-bg);
+  color: var(--heo-fontcolor);
+	border-radius: 12px;
+	z-index: 102;
+  border: var(--style-border);
+  transition: 0.3s;
+}
+#rightMenu:hover{
+  border: var(--style-border-hover);
+  box-shadow: var(--heo-shadow-theme);
+}
+#rightMenu .rightMenu-group{
+	padding: 0.35rem 0.3rem;
+}
+#rightMenu .rightMenu-group:not(:nth-last-child(1)){
+	border-bottom: 1px dashed var(--heo-theme-op);
+}
+#rightMenu .rightMenu-group.rightMenu-small{
+	display: flex;
+	justify-content: space-between;
+}
+#rightMenu .rightMenu-group .rightMenu-item{
+	border-radius: 8px;
+	transition: 0.3s;
+  cursor: pointer;
+}
+
+#rightMenu .rightMenu-line .rightMenu-item{
+  margin: 0.25rem 0;
+  padding: 0.25rem 0;
+}
+#rightMenu .rightMenu-group.rightMenu-line .rightMenu-item{
+	display: flex;
+}
+#rightMenu .rightMenu-group .rightMenu-item:hover{
+	background-color: var(--heo-theme);
+  color: var(--heo-white);
+  box-shadow: var(--heo-shadow-theme);
+}
+#rightMenu .rightMenu-group .rightMenu-item i{
+	display: inline-block;
+	text-align: center;
+	line-height: 1.5rem;
+	width: 1.5rem;
+	padding: 0 0.25rem;
+}
+#rightMenu .rightMenu-line .rightMenu-item i{
+  margin: 0 0.25rem;
+}
+#rightMenu .rightMenu-group .rightMenu-item span{
+	line-height: 1.5rem;
+}
+#rightmenu-mask{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: var(--heo-maskbg);
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 101;
+  margin: 0!important;
+}
+/*自定义菜单*/
+
+/*字体*/
+@font-face{
+  font-family:'hmos' ;  /* 字体名自定义即可 */
+  src:url('/custom/fonts/HMOS.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
+@font-face{
+  font-family:'hmos_code' ;  /* 字体名自定义即可 */
+  src:url('/custom/fonts/HMOS_CODE.ttf'); /* 字体文件路径 */
+  font-display : swap;
+}
+/*字体*/
+
+/*导航条*/
+@-webkit-keyframes aplayer-roll {
+	0% {
+		left: 0
+	}
+
+	to {
+		left: -100%
+	}
+}
+
+@keyframes aplayer-roll {
+	0% {
+		left: 0
+	}
+
+	to {
+		left: -100%
+	}
+}
+
+@-webkit-keyframes rotate {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+
+	to {
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn)
+	}
+}
+
+@keyframes rotate {
+	0% {
+		-webkit-transform: rotate(0);
+		transform: rotate(0)
+	}
+
+	to {
+		-webkit-transform: rotate(1turn);
+		transform: rotate(1turn)
+	}
+}
+
+/*# sourceMappingURL=APlayer.min.css.map*/
+
+/*暗黑模式*/
+[data-theme="dark"]
+  #post .post-copyright {
+    background-color: rgb(7 8 10);
+    text-shadow: #bfbeb8 1px 0 4px;
+  }
+[data-theme="dark"]
+  #post .post-copyright {
+    border: 1px solid rgb(19 18 18 / 35%);
+  }
+[data-theme="dark"]
+  .post-copyright-info {
+    color: #e0e0e4;
+  }
+#post .post-copyright__title{
+    font-size:22px;
+}
+#post .post-copyright__notice{
+    font-size:15px;
+}
+
+/*音乐隐藏*/
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+    left: -66px !important;
+    /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+  }
+  
+  .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+    left: 0 !important;
+    /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+  }
+  .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+    left: -66px !important;
+    /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+  }
+  
+  .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover { 
+    left: 0 !important;
+    /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+  }
+  .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+    left: -66px !important;
+    /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+  }
+  
+  .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+    left: 0 !important;
+    /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+  }
+
+  svg.icon.festival-decoration {
+    width: 3em;
+    height: 3em;
+    left: 2em;
+    margin-bottom: -3em;
+    display: block;
+    z-index: 100;
+    position: relative;
+    -webkit-animation: sway 1s infinite ease-in-out alternate;
+    animation: sway 1s infinite ease-in-out alternate;
+}
+@-webkit-keyframes sway {
+  0% {
+    -webkit-transform: rotate(20deg);
+    transform-origin: center top;
+  }
+  100% {
+    -webkit-transform: rotate(-20deg);
+    transform-origin: center top;
+  }
+}
+@keyframes sway {
+  0% {
+    transform: rotate(20deg);
+    transform-origin: center top;
+  }
+  100% {
+    transform: rotate(-20deg);
+    transform-origin: center top;
+  }
+}
+/*音乐隐藏*/
+
+/* 滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+ 
+::-webkit-scrollbar-track {
+  background-color: rgba(73, 177, 245, 0.2);
+  border-radius: 2em;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #1a1d1d;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.4) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0.4) 75%,
+    transparent 75%,
+    transparent
+  );
+  border-radius: 4em;
+}
+ 
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+ 
+::-moz-selection {
+  color: #fff;
+  background-color: #49b1f5;
+}
+/*滚动条*/
+
+
