@@ -1,0 +1,77 @@
+/*字体*/
+@font-face {
+    font-family: 'hmos';
+    /* 字体名自定义即可 */
+    src: url('/crl/fonts/HMOS.ttf')format('ttf');
+    /* 字体文件路径 */
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'blog';
+    /* 字体名自定义即可 */
+    src: url('https://cdn.cnortles.top/fonts/global_crl.woff2')format('woff2');
+    /* 字体文件路径 */
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'hmos';
+    /* 字体名自定义即可 */
+    src: url('https://cdn.cnortles.top/fonts/HMOS.woff2')format('woff2');
+    /* 字体文件路径 */
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'hmos_code';
+    /* 字体名自定义即可 */
+    src: url('https://cdn.cnortles.top/fonts/HMOS_CODE.woff2')format('woff2');
+    /* 字体文件路径 */
+    font-display: swap;
+  }
+  
+  /*字体*/
+  
+  /*导航条*/
+  @-webkit-keyframes aplayer-roll {
+    0% {
+      left: 0
+    }
+  
+    to {
+      left: -100%
+    }
+  }
+  
+  @keyframes aplayer-roll {
+    0% {
+      left: 0
+    }
+  
+    to {
+      left: -100%
+    }
+  }
+  
+  @-webkit-keyframes rotate {
+    0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0)
+    }
+  
+    to {
+      -webkit-transform: rotate(1turn);
+      transform: rotate(1turn)
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      -webkit-transform: rotate(0);
+      transform: rotate(0)
+    }
+  
+    to {
+      -webkit-transform: rotate(1turn);
+      transform: rotate(1turn)
+    }
+  }
