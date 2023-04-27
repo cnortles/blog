@@ -28,8 +28,9 @@ if (window.console) {
   if (PublicSacrificeDay()) {
     document.getElementsByTagName("html")[0].setAttribute("style", "filter:gray !important;filter:grayscale(100%);-webkit-filter:grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);-o-filter:grayscale(100%);");
   }
-/**获取友联链接 */
-getLinks();
+
+// /**获取友联链接 */
+// getLinks();
 
 
 //开发者模式监测
@@ -40,27 +41,28 @@ window.onkeydown = function (e) {
 
 
 
-//动态标题
-var OriginTitile = document.title;
-var titvarime;
-document.addEventListener('visibilitychange', function () {
-  if (document.hidden) {
-    //离开当前页面时标签显示内容
-    document.title = 'w(ﾟДﾟ)w 服务器被黑洞吞了！连接中断......';
-    clearTimeout(titvarime);
-  } else {
-    //返回当前页面时标签显示内容
-    document.title = '♪(^∇^*)服务器又从白洞出来了！连接恢复' + OriginTitile;
-    //两秒后变回正常标题
-    titvarime = setTimeout(function () {
-      document.title = OriginTitile;
-    }, 2000);
-  }
-});
+// //动态标题
+// var OriginTitile = document.title;
+// var titvarime;
+// document.addEventListener('visibilitychange', function () {
+//   if (document.hidden) {
+//     //离开当前页面时标签显示内容
+//     document.title = 'w(ﾟДﾟ)w 服务器被黑洞吞了！连接中断......';
+//     clearTimeout(titvarime);
+//   } else {
+//     //返回当前页面时标签显示内容
+//     document.title = '♪(^∇^*)服务器又从白洞出来了！连接恢复' + OriginTitile;
+//     //两秒后变回正常标题
+//     titvarime = setTimeout(function () {
+//       document.title = OriginTitile;
+//     }, 2000);
+//   }
+// });
 
 
 /**页脚运行时间 */
 runtime();
+
 /**网站提示 */
 welcome_mes();
 
