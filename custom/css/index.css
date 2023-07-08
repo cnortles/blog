@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'hmos';
     /* 字体名自定义即可 */
-    src: url('/crl/fonts/HMOS.ttf')format('ttf');
+    src: url('https://cdn.cnortles.top/crl/fonts/HMOS.ttf')format('ttf');
     /* 字体文件路径 */
     font-display: swap;
   }
