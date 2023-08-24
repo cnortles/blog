@@ -18,7 +18,7 @@ if (window.console) {
   \___  >___|  /\____/|__|   |__| |____/\___  >____  >
      \/     \/                             \/     \/ 
                                                      
-      Powered by crl Ralease 2.0.1. Anzhiy 1.1.8.
+      Powered by crl Ralease 3.0.1. Anzhiy 1.6.0.
       */
     };
     console.log(string.makeMulti());
@@ -66,11 +66,3 @@ runtime();
 /**网站提示 */
 welcome_mes();
 
-// 腾讯统计
-const aegis = new Aegis({
-  id: 'YrDZ2TbYn16n2W0Yae', // 上报 id
-  uin: 'xxx', // 用户唯一 ID（可选）
-  reportApiSpeed: true, // 接口测速
-  reportAssetSpeed: true, // 静态资源测速
-  spa: true // spa 应用页面跳转的时候开启 pv 计算
-});
